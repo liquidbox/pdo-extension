@@ -1,0 +1,25 @@
+{
+	"name": "liquidbox/pdo-extension",
+	"keywords": [
+		"php",
+		"database",
+		"pdo",
+		"mysql",
+		"odbc",
+		"postgresql",
+		"sqlite"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jonathan-Paul Marois",
+			"email": "jonathanpaul.marois@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3"
+	},
+	"autoload": {
+		"psr-4": { "LiquidBox\\": "src/" }
+	}
+}
